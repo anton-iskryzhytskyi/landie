@@ -3,3 +3,72 @@
 
 html
   scroll-behavior: smooth
+
+.navbar-brand
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+.brand
+  font-family: "Roboto Black", sans-serif
+  font-size: 26px
+  color: $logo-primary
+
+a
+  color: $main-blue-500
+  text-decoration: none
+  &:hover
+    text-decoration: none
+    color: $main-blue-700
+
+.btn:focus
+  box-shadow: none
+
+.btn-primary
+  background-color: $main-blue-800
+  border: 2px solid $main-blue-800
+  border-radius: 2px
+  &:hover, &:focus, &:active
+    background-color: $main-blue-600
+    border: 2px solid $main-blue-600
+
+.btn-outline-primary
+  border: 2px solid $main-blue-900
+  color: $main-blue-900
+  border-radius: 2px
+  &:hover, &:focus, &:active
+    color: $secondary-white-100
+    background-color: $main-blue-600
+    border: 2px solid $main-blue-600
+
+h1
+  font-size: 50px
+  color: $main-blue-900
+
+p
+  font-size: 18px
+  color: $main-blue-500
+
+.price
+  font-size: 50px
+  color: $main-blue-700
+  font-family: "Roboto Medium", sans-serif
+
+.price-title
+  color: $main-blue-600
+  margin-bottom: 60px
+
+.price-body
+  color: $main-gray-600
+  font-size: 14px
+  margin-bottom: 10px
+
+.footer-background
+  background-color: $main-blue-100
+
+hr
+  background-color: $main-gray-200
+
+.footer-link
+  font-size: 14px
+  color: $main-blue-300
